@@ -1,9 +1,6 @@
-# Aptos Explorer
+# ESChain Explorer
 
 ## How to use
-
-Clone the repo. Requires [yarn](https://classic.yarnpkg.com/en/docs/install)
-
 
 Install dependencies:
 ```sh
