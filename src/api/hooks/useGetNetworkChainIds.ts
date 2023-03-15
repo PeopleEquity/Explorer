@@ -6,7 +6,7 @@ import {
   setLocalStorageWithExpiry,
 } from "../../utils";
 
-const TTL = 3600000; // 1 hour
+const TTL = 1000; // 1 hour
 
 export function useGetChainIdCached(networkName: NetworkName): string | null {
   return getLocalStorageWithExpiry(`${networkName}ChainId`);

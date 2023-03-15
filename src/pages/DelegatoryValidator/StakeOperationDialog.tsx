@@ -171,7 +171,7 @@ export default function StakeOperationDialog({
       </DialogActions>
       <DialogContent sx={{textAlign: "center"}}>
         <Typography variant="caption" color={grey[450]}>
-          Please do your own research. Aptos Labs is not responsible for the
+          Please do your own research. ESChain Labs is not responsible for the
           performance of the validator nodes displayed here, or the security of
           your funds
         </Typography>
@@ -231,7 +231,7 @@ export default function StakeOperationDialog({
       </DialogActions>
       <DialogContent sx={{textAlign: "center"}}>
         <Typography variant="caption" color={grey[450]}>
-          Please do your own research. Aptos Labs is not responsible for the
+          Please do your own research. ESChain Labs is not responsible for the
           security of your funds
         </Typography>
       </DialogContent>

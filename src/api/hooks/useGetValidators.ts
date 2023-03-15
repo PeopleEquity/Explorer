@@ -3,9 +3,11 @@ import {useEffect, useState} from "react";
 import {useGetValidatorSet} from "./useGetValidatorSet";
 import {Network, NetworkName} from "../../constants";
 
+//TODO
 const MAINNET_VALIDATORS_DATA_URL =
   "https://aptos-analytics-data-mainnet.s3.amazonaws.com/validator_stats_v1.json";
 
+//TODO
 const TESTNET_VALIDATORS_DATA_URL =
   "https://aptos-analytics-data-testnet.s3.amazonaws.com/validator_stats_v1.json";
 

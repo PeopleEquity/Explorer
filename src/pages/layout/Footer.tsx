@@ -11,22 +11,22 @@ import {ReactComponent as LinkedInLogo} from "../../assets/linkedin.svg";
 import {grey} from "../../themes/colors/aptosColorPalette";
 import SvgIcon from "@mui/material/SvgIcon";
 
-import {ReactComponent as LogoFull} from "../../assets/svg/aptos_logo_icon.svg";
+import {ReactComponent as LogoFull} from "../../assets/svg/pe_logo.svg";
 
 const socialLinks = [
-  {title: "Git", url: "https://github.com/aptos-labs", icon: GithubLogo},
+  {title: "Git", url: "https://github.com/PeopleEquity", icon: GithubLogo},
   {
     title: "Discord",
-    url: "https://discord.com/invite/aptoslabs",
+    url: "https://discord.gg/ehW3rCD8",
     icon: DiscordLogo,
   },
-  {title: "Twitter", url: "https://twitter.com/aptoslabs/", icon: TwitterLogo},
-  {title: "Medium", url: "https://aptoslabs.medium.com/", icon: MediumLogo},
-  {
-    title: "LinkedIn",
-    url: "https://www.linkedin.com/company/aptoslabs/",
-    icon: LinkedInLogo,
-  },
+  {title: "Twitter", url: "https://twitter.com/CurrentAssets_/", icon: TwitterLogo},
+  {title: "Medium", url: "https://medium.com/@CurrentAssets_", icon: MediumLogo},
+  // {
+  //   title: "LinkedIn",
+  //   url: "https://www.linkedin.com/company/PeopleEquity/",
+  //   icon: LinkedInLogo,
+  // },
 ];
 
 export default function Footer() {
@@ -51,7 +51,8 @@ export default function Footer() {
           <Grid xs="auto" container justifyContent="start">
             <Link
               color="inherit"
-              href="https://aptoslabs.com/"
+              // TODO
+              href=""
               target="_blank"
               sx={{width: "3rem", mb: {xs: 2, md: 0}, mr: {md: 2}}}
             >
@@ -76,7 +77,7 @@ export default function Footer() {
             >
               © {new Date().getFullYear()}{" "}
               <Box component="span" sx={{whiteSpace: "nowrap"}}>
-                Aptos Labs
+                PE Labs
               </Box>
             </Typography>
             <Stack
@@ -86,7 +87,8 @@ export default function Footer() {
             >
               <Link
                 color="inherit"
-                href="https://aptoslabs.com/privacy"
+                // TODO
+                href=""
                 target="_blank"
                 sx={{
                   fontSize: "0.8rem",
@@ -97,7 +99,8 @@ export default function Footer() {
               </Link>
               <Link
                 color="inherit"
-                href="https://aptoslabs.com/terms"
+                // TODO
+                href=""
                 target="_blank"
                 sx={{
                   fontSize: "0.8rem",

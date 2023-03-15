@@ -86,7 +86,7 @@ export default function ExplorerLayout({children}: LayoutProps) {
                   }
                 >
                   <Typography color="#ffffff">
-                    Power Aptos network. Stake tokens and earn rewards.
+                    Power ESChain network. Stake tokens and earn rewards.
                   </Typography>
                 </Alert>
               </Collapse>
